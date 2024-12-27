@@ -12,10 +12,10 @@ class Rows_column extends StatelessWidget{
       ),
       body: Container(
         height: h,
-        width: 200,
+        width: w,
         color: Colors.yellow,
-        child:Wrap(
-          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        child:Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           // crossAxisAlignment: CrossAxisAlignment.end,
           children: [
           Container(
