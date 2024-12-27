@@ -14,8 +14,10 @@ class Rows_column extends StatelessWidget{
         height: h,
         width: w,
         color: Colors.yellow,
-        child:Row(
+        child:Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           // crossAxisAlignment: CrossAxisAlignment.end,
           children: [
           Container(
