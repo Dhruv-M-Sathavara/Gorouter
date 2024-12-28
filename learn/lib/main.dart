@@ -5,9 +5,11 @@ import 'package:learn/Widgets/container_sized.dart';
 import 'package:learn/Widgets/rows_column.dart';
 
 
-void main()=>runApp(new MyApp());
+void main()=>runApp(MyApp());
 
 class MyApp extends StatelessWidget{
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context){
     return MaterialApp(

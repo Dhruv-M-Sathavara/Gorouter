@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Container_Sized extends StatelessWidget{
+  const Container_Sized({super.key});
+
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -13,9 +15,6 @@ class Container_Sized extends StatelessWidget{
       // margin: EdgeInsets.all(20),
         height: 100,
         width: 100,
-        child:Center(child: Container(margin: EdgeInsets.all(10),
-          color: Colors.red,
-        )),
         // Text("Hello", style: TextStyle(fontSize: 20))),
         decoration: BoxDecoration(
           color: Colors.yellow,
@@ -31,7 +30,10 @@ class Container_Sized extends StatelessWidget{
             offset: Offset(5,5)
           )
         ]
-        )
+        ),
+        child:Center(child: Container(margin: EdgeInsets.all(10),
+          color: Colors.red,
+        ))
         
      )
      )

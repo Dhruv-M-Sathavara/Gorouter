@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget{
+  const Button({super.key});
+
   @override
   Widget build(BuildContext context){
     var h = MediaQuery.of(context).size.height;
@@ -18,18 +20,18 @@ class Button extends StatelessWidget{
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             TextButton(style: ButtonStyle(
-              padding: MaterialStateProperty.all(EdgeInsets.all(20)),
-              overlayColor: MaterialStateProperty.all(Colors.black12),
-              backgroundColor: MaterialStateProperty.all(Colors.blueAccent),elevation: MaterialStateProperty.all(20)
+              padding: WidgetStateProperty.all(EdgeInsets.all(20)),
+              overlayColor: WidgetStateProperty.all(Colors.black12),
+              backgroundColor: WidgetStateProperty.all(Colors.blueAccent),elevation: WidgetStateProperty.all(20)
             ),child:Text("Press Me" ,style:TextStyle(fontSize: 20, color: Colors.white),) , onPressed: (){},),
 
 
-           Container(
+           SizedBox(
             height: 70,
             width: 200,
             child:  ElevatedButton(style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(Colors.blue),
-              shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(40))),
+              backgroundColor: WidgetStateProperty.all(Colors.blue),
+              shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(40))),
             ), onPressed:(){}, child: Text('Elevated Button',style: TextStyle(fontSize: 20,color: Colors.white),))) 
           ],
         ),

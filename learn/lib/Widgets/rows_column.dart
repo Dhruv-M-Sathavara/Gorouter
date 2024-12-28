@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Rows_column extends StatelessWidget{
+  const Rows_column({super.key});
+
  @override
   Widget build(BuildContext context) {
     var w = MediaQuery.of(context).size.width;
