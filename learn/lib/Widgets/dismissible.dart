@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Diss extends StatefulWidget {
+  const Diss({super.key});
+
   @override
   _DissmissibleWidgetState createState() => _DissmissibleWidgetState();
 }

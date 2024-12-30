@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Snackbarlean extends StatelessWidget{
+  const Snackbarlean({super.key});
+
   
   @override
   Widget build(BuildContext context){

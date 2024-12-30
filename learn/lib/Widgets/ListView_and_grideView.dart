@@ -7,6 +7,8 @@ class Views extends StatelessWidget{
     'team' : ['CSK', 'MI','RCB','SRH','GT','RR']
   };
   List<String> fruits = ['Orange','Mango','Banana','Guvava','kk','ss'];
+
+  Views({super.key});
   @override
   
 
