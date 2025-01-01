@@ -15,7 +15,7 @@ class Bottomsheet extends StatelessWidget {
 
       body: Center(
         child: ElevatedButton(style: ButtonStyle(backgroundColor: WidgetStateProperty.all(Colors.blueAccent)), onPressed: (){
-          showModalBottomSheet(isDismissible: false,
+          showModalBottomSheet(
             context: context, builder:(context){
             return Column(mainAxisSize: MainAxisSize.min,
               children: [

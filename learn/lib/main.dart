@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learn/Widgets/alaert.dart';
 import 'package:learn/Widgets/bottomSheet.dart';
+import 'package:learn/Widgets/bottom_navigation.dart';
 
 
 void main()=>runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget{
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple
       ),
-      home: Bottomsheet()
+      home: Bottom_navigation()
     );
   }
 }
