@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learn/Widgets/dropdownpractice.dart';
-import 'package:learn/Widgets/form.dart';
+import 'package:learn/Widgets/UIpractice.dart';
 import 'package:learn/Widgets/imagepicker.dart';
-import 'package:learn/Widgets/stack&positioned.dart';
-import 'package:learn/Widgets/tabbar.dart';
 
 
 
@@ -17,10 +14,10 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
         primaryColor: Colors.deepPurple
       ),
-      home: ImagepickerLearn()
+      home: Uipractice()
     );
   }
 }
