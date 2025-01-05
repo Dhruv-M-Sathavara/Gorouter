@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:learn/Widgets/UIpractice.dart';
-import 'package:learn/Widgets/imagepicker.dart';
 
 
 
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
         primaryColor: Colors.deepPurple
       ),
       home: Uipractice()
